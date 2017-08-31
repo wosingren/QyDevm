@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">设备出入库系统</string>
+    <string name="system_name">电信设备出入库系统</string>
+    <string name="httpErro">服务器连接不上了，请检查网络</string>
+    <!-- 主界面顶部tab标题文字 -->
+    <string-array name="mainTab">
+        <item>设备管理</item>
+        <item>入库信息</item>
+        <item>出库信息</item>
+        <item>调配信息</item>
+        <item>回库信息</item>
+    </string-array>
+
+    <string-array name="fundsStuation">
+        <item>已回笼</item>
+        <item>未回笼 </item>
+    </string-array>
+
+    <!--add package-->
+    <string name="scan_code">Scan code</string>
+    <string name="tint_package_name">Name(Optional)</string>
+    <string name="tint_package_number">Number</string>
+    <string name="wrong_number_and_check">Invalid number, check it and retry.</string>
+    <string name="require_permission">To support barcode scan, you need to grant camera permission.</string>
+    <string name="package_name_default_pre">Package</string>
+    <string name="package_exist">The package is in your list.</string>
+    <string name="permission_denied">Permission Denied</string>
+    <string name="error">错误</string>
+    <string name="something_wrong">Something wrong…</string>
+    <string name="unable_to_open_camera">未能打开相机, 请检查后重新尝试.</string>
+    <!--add package end-->
+    <!--activities-->
+    <string name="activity_package_details">Package Details</string>
+    <string name="activity_add_package">Add Package</string>
+    <string name="activity_company_details">Company Details</string>
+    <string name="activity_search">查找</string>
+    <string name="activity_scan_code">Scan code</string>
+    <!--activities end-->
+</resources>

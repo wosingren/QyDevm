@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wtzn.qy.qydevm.fragment.ImportOneFragment">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="8">
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:text="设备名称:"
+            android:layout_gravity="center"
+            android:layout_columnSpan="2"
+            android:id="@+id/tvDevName" />
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设备串码"
+            />
+
+        <EditText
+            android:layout_gravity="fill_horizontal"
+            android:id="@+id/etIMEI" />
+        <TextView
+            android:text="入库价格"
+            />
+
+        <EditText
+            android:layout_gravity="fill_horizontal"
+            android:id="@+id/etPrice" />
+
+        <TextView
+            android:text="交货人"
+            />
+
+        <EditText
+            android:layout_gravity="fill_horizontal"
+            android:id="@+id/etConsigno" />
+
+        <TextView
+            android:text="收货人"
+            />
+
+        <EditText
+            android:layout_gravity="fill_horizontal"
+            android:id="@+id/etConsignee" />
+        <TextView
+            android:text="资金回笼"
+            />
+        <Spinner
+            android:id="@+id/spFundsStuation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/fundsStuation"
+            />
+        <TextView
+            android:layout_rowSpan="3"
+            android:text="备注"
+            />
+
+        <EditText
+            android:layout_gravity="fill_horizontal"
+            android:inputType="textMultiLine"
+            android:ems="5"
+            android:minLines="5"
+            android:id="@+id/etRemark"
+           />
+
+        <Button
+            android:layout_columnSpan="2"
+            android:layout_gravity="center"
+            android:text="入库"
+            android:id="@+id/btRk" />
+    </GridLayout>
+</RelativeLayout>

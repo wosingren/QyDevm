@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/QyDevm.iml" filepath="$PROJECT_DIR$/QyDevm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qydev/qydev.iml" filepath="$PROJECT_DIR$/qydev/qydev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewPagerIndicator/viewPagerIndicator.iml" filepath="$PROJECT_DIR$/viewPagerIndicator/viewPagerIndicator.iml" />
+    </modules>
+  </component>
+</project>

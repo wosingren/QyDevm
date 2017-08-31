@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wtzn.qy.qydevm.fragment.DeviceListFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加设备"
+      android:layout_gravity="center_horizontal"
+        android:id="@+id/btDevAdd" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="设备名称" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="型号"/>
+
+
+    </LinearLayout>
+    </LinearLayout>
+    <com.wtzn.qy.qydevm.ui.LoadMoreListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:divider="@drawable/base_list_divider_drawable"
+        android:fadingEdge="none" >
+    </com.wtzn.qy.qydevm.ui.LoadMoreListView>
+</LinearLayout>

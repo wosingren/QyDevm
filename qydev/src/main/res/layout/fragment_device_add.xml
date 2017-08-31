@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wtzn.qy.qydevm.fragment.DeviceAddFragment">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="编号"
+            />
+        <EditText
+            android:layout_gravity="fill_horizontal"
+            android:id="@+id/etDevNo" />
+
+        <TextView
+            android:text="设备名称:"
+            android:layout_gravity="center"
+            android:id="@+id/tvDevName" />
+        />
+        <EditText
+            android:layout_gravity="fill_horizontal"
+            android:id="@+id/etDevName" />
+        <TextView
+            android:text="供应商"
+            />
+
+        <EditText
+            android:layout_gravity="fill_horizontal"
+            android:id="@+id/etSupplier" />
+
+
+        <TextView
+            android:text="规格型号"
+            />
+
+        <EditText
+            android:layout_gravity="fill_horizontal"
+            android:id="@+id/etModel" />
+
+        <Button
+            android:layout_columnSpan="2"
+            android:layout_gravity="center_horizontal"
+            android:text="添加"
+            android:id="@+id/btDevAdd" />
+    </GridLayout>
+</RelativeLayout>
